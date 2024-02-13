@@ -1,5 +1,7 @@
+# a program to calculate the age of the user with DOB as input
 import datetime
 current_year = datetime.datetime.now().year
+#function operation
 def get_age(birthdate):
     birth_year = int(birthdate[:4])
     if current_year - birth_year < 0:
