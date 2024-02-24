@@ -10,5 +10,5 @@ def  get_marks():
     elif marks  >=40 and marks < 50:
         print('your score is D')
     else:
-         print('you faild')
+         print('you failed')
 get_marks()
